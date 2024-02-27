@@ -9,19 +9,6 @@
         "dimension": 66.75126903553299,
         "children": [
           {
-            "id": "f1b3f5d84970d6e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "4658145ca085c9ed"
-          },
-          {
             "id": "a33210d6a7f29dd3",
             "type": "leaf",
             "state": {
@@ -67,7 +54,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Tools.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -90,12 +76,11 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 2.7556759606310766,
+                      "scale": 0.7132754626224425,
                       "close": true
                     }
                   }
-                },
-                "group": "4658145ca085c9ed"
+                }
               }
             ]
           },
@@ -110,7 +95,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Tools.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -190,7 +174,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +190,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,9 +211,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Tools.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -251,12 +231,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28526de3f98fbd94",
+  "active": "a33210d6a7f29dd3",
   "lastOpenFiles": [
+    "Content/index.md",
+    "Content/Index.md",
     "Tools.md",
+    "Content/Tools.md",
+    "Tools/Podman.md",
+    "Content/Tools/Terraform.md",
+    "Content/Tools/Proxmox.md",
+    "Content/Tools/Podman.md",
+    "Content/Tools/Ansible.md",
+    "Content/Tools",
+    "Content",
+    "build.sh",
+    "Index.md",
     "Tools/Terraform.md",
     "Tools/Ansible.md",
-    "Tools/Podman.md",
     "Tools/Proxmox.md",
     "test.md",
     "Tools"
