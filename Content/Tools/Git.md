@@ -1,0 +1,3 @@
+# Setting Git for corporate use case with SSL and SSH keys.
+1. Set global http sslCAInfo for internal git, this way both public git services and private will work without throwing *SSL certificate problem: unable to  get local issuer certificate*: `git config --global http."https://code.example.com/".sslCAInfo <downloaded certificate>.pem` (you can download certificate through browser).`
+2. Generate ssh key using ssh-keygen like this: `ssh-keygen -t ed25519 -C "comment"`. Add the key on your git hosting. You can use `pagent` with `schannel` backend, or `openssl` backend with `ssh-agent`. I'm personally storing my ssh keys inside KeepassXC, which adds them automatically to pagent/ssh-agent on database unlock.
